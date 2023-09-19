@@ -1,0 +1,327 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+}
+ 
+
+@import url(/drukaatie-burti-cufonfonts-webfont/DrukaatieBurti-Regular.woff);
+
+/* paleta de colores*/
+
+/*#F4F0C9*/
+
+/*#528145 */
+
+/* #B1DC88 */
+
+/* #406037 */
+
+
+
+
+
+
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(82, 129, 69);
+}
+  
+.header1 {
+  background-color: #406037c2 ;
+  color: #F4F0C9;
+  padding: 10px 0;
+  position: fixed;
+  width: 100%;
+}
+  
+  nav {
+    max-width: 800px;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 12px;
+    display: flex;
+  }
+
+  .logo h2 {
+    margin: auto;
+    margin-left: 10px;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-family:'Drukaatie burti Regular';
+    color: #F4F0C9;
+  }
+
+  .logo-icon {
+    height: 60px;
+    width: 60px;
+    border: solid 2px #F4F0C9;
+    border-radius: 100%;
+  }
+  
+  ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  ul li a {
+    color: #F4F0C9;
+    text-decoration: none;
+  }
+  
+  ul li a.active {
+    font-weight: bold;
+  }
+  
+  .hero {
+    background-image: url('hero-background.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #F4F0C9;
+    text-align: center;
+    padding: 100px 0;
+    padding-top: 160px;
+  }
+  
+  .hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 25px;
+  }
+
+  .hero-content h1 {
+    padding: 8px;
+  }
+  
+  .hero-content p{
+    padding: 5px;
+    padding-bottom: 20px;
+  }
+
+  .btn {
+    display: inline-block;
+    background-color: #406037;
+    color: #F4F0C9;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: #B1DC88;
+
+  }
+  
+  .featured {
+    width: 100%;
+    margin-bottom: 80px;
+  }
+  
+  .featured h2 {
+    text-align: center;
+    margin: 10px;
+    margin-bottom: 30px;
+    color: #B1DC88;
+    font-size: 40px;
+    font-weight: 900;
+  }
+  
+  .featured-container {
+    display: flex;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+
+
+
+  }
+
+  
+  .card {
+    background-color: #70a86c;
+    height: auto;
+    max-height: 320px;
+    width: auto;
+    max-width: 180px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 9px 5px 8px rgba(0, 0, 0, 0.5);
+    color: #B1DC88;
+    justify-content: center;
+    align-items: center;
+    transition: all 700ms;
+
+  }
+
+  .card img::before{
+    transition: all 2000ms;
+    filter: blur(2px);
+    height: 500px;
+  }
+
+  .card:hover {
+    border: solid 8px #F4F0C9;
+    transition: all 400ms;
+  }
+  
+  .card img {
+    max-width: 180px;
+    width: 100%;
+    max-height: 255px;
+    height: 50vh;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    transition: all 1000ms;
+  }
+
+  .card h3 {
+    font-size: 25px;
+    max-width: auto;
+    
+  }
+
+  
+  
+  .footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #528145;
+    color: #F4F0C9;
+  }
+
+/* video test */
+
+.backgound-player {
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+    height: auto;
+    max-height: 87.5%;
+    opacity: 0.5;
+    filter: blur(2px);
+    display: flex;
+    margin-top: 0.5%;
+}
+
+.title-section{
+    width: auto;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 25px;
+    margin-top: 15px ;
+}
+
+.title-section h1 {
+  color: #F4F0C9;
+  font-family:'Drukaatie burti Regular';
+  font-weight: 900;
+  font-size: 40px;
+  
+}
+
+.drive-video-conteiner2 {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 35px;
+    width: 80%;
+    height: 48%;
+
+    padding: 9px;
+
+
+}
+
+.video-player-container {
+  padding-top: 150px;
+}
+
+.drive-video-conteiner{
+
+
+    border: solid 15px #406037;
+    background-color: #406037;
+    
+    border-radius: 25px;
+    width: 850px;
+    height: 450px;
+
+}
+
+.dirve-video {
+  width: 250px;
+  height: 400px;
+
+}
+
+.description-video {
+    height: 150px;
+    width: 480px;
+    margin: auto;
+    margin-bottom: 25px;
+    background-color: #70a86c;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.description-video h2 {
+    margin: 8px;
+    color: #F4F0C9;
+
+}
+
+/* Peliculas grid */
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  transition: all 500ms;
+  padding-top: 160px;
+  
+}
+
+.movie-card {
+  background-color: #F4F0C9;
+  border-radius: 10px;
+  padding: 7px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  align-items: center;
+  justify-content: center;
+  transition: all 500ms;
+}
+
+.movie-card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  
+}
+
+.movie-card h2 {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+/* Tron custom */
+
+

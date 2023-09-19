@@ -1,0 +1,183 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+/*style css*/
+
+/* color fu*/
+#color1{
+    background-color: rgba(26, 64, 42, 0.626);
+}
+#color2{
+    background-color:#2A8C55;
+}
+
+/* fu html style */
+.headerfu {
+    background-color: rgb(26, 64, 42);
+}
+
+.fu {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(26, 64, 42);
+}
+
+.video-player-container-tron{
+    padding-top: 120px;
+}
+
+.div-backgound {
+  width: 100%;
+  height: 87.5%;
+  z-index: -1;
+  position: absolute;
+}
+
+.backgound-player-fu {
+  z-index: -1;
+  position: absolute;
+  width: 100%;
+  height: auto;
+  max-height: 87.5%;
+  opacity: 0.5;
+  filter: blur(2px);
+  display: flex;
+  margin-top: 0.5%;  
+}
+
+.filter {
+  background: rgb(26, 64, 42);
+  background: linear-gradient(0deg, rgb(26, 64, 42) 0%, rgba(11, 54, 61, 0) 50%, rgb(26, 64, 42) 100%);
+  position: static;
+  height: 90%;
+  width: 100%;  
+}
+
+.title-section-tron{
+  width: auto;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  padding: 25px;
+  margin-top: 15px ;
+}
+
+.trondisk {
+  height: 40px;
+  mix-blend-mode:multiply;
+  margin: 8px;
+}
+
+.title-section-tron h1 {
+  color: #F4F0C9;
+  font-family:'Drukaatie burti Regular';
+  font-weight: 900;
+  font-size: 40px;
+}
+  
+.drive-video-conteiner2-tron {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin: auto;
+  margin-top: 25px;
+  margin-bottom: 35px;
+  width: 80%;
+  height: 48%;
+  padding: 9px;  
+}
+  
+.drive-video-conteiner-fu{  
+    border: solid 15px #2A8C55;
+    border-radius: 25px;
+    width: 850px;
+    height: 450px;
+}
+  
+.dirve-video-tron {
+  width: 250px;
+  height: 400px; 
+}
+  
+.description-video-fu {
+  height: auto;
+  width: auto;
+  max-width: 600px;
+  margin: auto;
+  margin-bottom: 25px;
+  padding: 15px;
+  border-radius: 15px;
+  text-align: center;
+}
+  
+.description-video-fu h2 {
+  margin: 8px;
+  color: #F4F0C9;
+}
+
+.description-video-fu p{
+    color: #dfdbbf;
+    font-weight: 600;
+}
+
+.footer-fu {
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(26, 64, 42);
+    color: #F4F0C9;
+    font-variant: normal;
+}
+
+.video-backgound-player {
+  z-index: -1;
+  position: absolute;
+  width:max-content;
+  height: 120px;
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  filter: blur(2px);
+}
+
+.fix-footer {
+  width: 100%;
+  height: 120px;
+  padding-top: 40px; 
+}
+
+/* artist description css */
+
+.artist-card {
+  max-width: 250px;
+  width: 40vw ;
+  margin: 20px;
+  padding: 20px;
+  background-color: #F4F0C9;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  justify-content: center;
+  align-items: center;
+}
+  
+.artist-card img {
+  max-width: 100%;
+  width: 100%;
+  height: 120px;
+  border-radius: 5px;
+}
+  
+.artist-card h3 {
+  margin-top: 10px;
+}
+  
+.artist-card p {
+  margin-top: 10px;
+}
+.grid-artist {
+  display: flex;
+}
+
