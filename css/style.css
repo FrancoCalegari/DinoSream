@@ -516,6 +516,16 @@ body {
     color: #F4F0C9;
   }
 
+  .description-video {
+    height: auto;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 25px;
+    background-color: #70a86c;
+    padding: 15px;
+    border-radius: 15px;
+  }
+
 
 
 }
