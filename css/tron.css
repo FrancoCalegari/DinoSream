@@ -175,3 +175,19 @@
 .grid-artist {
   display: flex;
 }
+
+
+
+@media screen and (max-width: 600px) {
+
+  description-video-tron {
+    height: auto;
+    width: 40%;
+    max-width: 600px;
+    margin: auto;
+    margin-bottom: 25px;
+    padding: 15px;
+    border-radius: 15px;
+  }
+
+}
