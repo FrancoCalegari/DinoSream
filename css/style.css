@@ -526,6 +526,22 @@ body {
   object-fit: fill;
 }
 
+.description-video {
+  height: auto;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 25px;
+  background-color: #70a86c;
+  padding: 15px;
+  border-radius: 15px;
+}
+
+.description-video h2 {
+  margin: 8px;
+  color: #F4F0C9;
+
+}
+
 
 
 }
