@@ -74,6 +74,7 @@
   font-family:'Drukaatie burti Regular';
   font-weight: 900;
   font-size: 40px;
+  text-align: center;
 }
   
 .drive-video-conteiner2-tron {
@@ -112,7 +113,11 @@
   
 .description-video-tron h2 {
   margin: 8px;
-  color: #F4F0C9;
+  color: #F4F0C9; 
+}
+
+.description-video-tron p{
+  text-align: center;
 }
 
 .footer-tron {
@@ -163,6 +168,7 @@
   width: 100%;
   height: 120px;
   border-radius: 5px;
+  border: #B4483E solid 4px;
 }
   
 .artist-card h3 {
