@@ -511,7 +511,6 @@ body {
     color: #F4F0C9;
   }
 
-<<<<<<< HEAD
   /* video test */
 
 .backgound-player {
@@ -526,17 +525,6 @@ body {
   margin-top: 0.5%;
   object-fit: fill;
 }
-=======
-  .description-video {
-    height: auto;
-    width: 80%;
-    margin: auto;
-    margin-bottom: 25px;
-    background-color: #70a86c;
-    padding: 15px;
-    border-radius: 15px;
-  }
->>>>>>> 1cac2c7bcadb320f8c02280fbbf672767b51c733
 
 
 
