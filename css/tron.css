@@ -175,3 +175,58 @@
 .grid-artist {
   display: flex;
 }
+
+
+
+@media screen and (max-width: 600px) {
+
+  .description-video-tron {
+    height: auto;
+    width: 80%;
+    max-width: 300px;
+    margin: auto;
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .artist-card {
+    max-width: 250px;
+    width: 80% ;
+    margin: 10px;
+    padding: 20px;
+    background-color: #F4F0C9;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+  }
+    
+  .artist-card img {
+    max-width: inherit;
+    width:auto;
+    height: 120px;
+    border-radius: 5px;
+    
+  }
+    
+  .artist-card h3 {
+    margin-top: 10px;
+  }
+    
+  .artist-card p {
+    margin-top: 10px;
+  }
+  .grid-artist {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+
+}
