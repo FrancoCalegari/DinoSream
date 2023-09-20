@@ -177,3 +177,23 @@
   display: flex;
 }
 
+
+@media screen and (max-width: 600px) {
+
+  .description-video {
+    height: auto;
+    width: 80%;
+    max-width: inherit;
+    margin: auto;
+    margin-bottom: 25px;
+    padding: 15px;
+    border-radius: 15px;
+  }
+    
+  .description-video-tron h2 {
+    margin: 8px;
+    color: #F4F0C9;
+  }
+
+
+}
