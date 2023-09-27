@@ -104,6 +104,7 @@
 .description-video-miraculus {
   height: auto;
   width: 80%;
+  max-width: 600px;
   margin: auto;
   margin-bottom: 25px;
   background-color: #FF5A5A;
