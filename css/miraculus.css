@@ -6,24 +6,24 @@
 /*style css*/
 
 #color1{
-    background-color: #0b363d;
+    background-color: #C41A1F;
 }
 #color2{
     background-color:#2D6469;
 }
 
-/* tron html style */
+/* miraculus html style */
 .header1 {
-    background-color: #4060379c;
+    background-color: #770b0e71;
 }
 
-.tron {
+.miraculus {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
 }
 
-.video-player-container-tron{
+.video-player-container-miraculus{
     padding-top: 120px;
 }
 
@@ -34,7 +34,7 @@
   position: absolute;
 }
 
-.backgound-player-tron {
+.backgound-player-miraculus {
   z-index: -1;
   position: absolute;
   width: 100%;
@@ -54,7 +54,7 @@
   width: 100%;  
 }
 
-.title-section-tron{
+.title-section-miraculus{
   width: auto;
   margin: auto;
   align-items: center;
@@ -70,14 +70,14 @@
   margin: 8px;
 }
 
-.title-section-tron h1 {
+.title-section-miraculus h1 {
   color: #F4F0C9;
   font-family:'Drukaatie burti Regular';
   font-weight: 900;
   font-size: 40px;
 }
   
-.drive-video-conteiner2-tron {
+.drive-video-conteiner2-miraculus {
   align-items: center;
   justify-content: center;
   display: flex;
@@ -89,43 +89,38 @@
   padding: 9px;  
 }
   
-.drive-video-conteiner-tron{  
-  border: solid 15px #2D6469;
+.drive-video-conteiner-miraculus{  
+  border: solid 15px #FF5A5A;
   border-radius: 25px;
   width: 850px;
   height: 450px;
 }
   
-.dirve-video-tron {
+.dirve-video-miraculus {
   width: 250px;
   height: 400px; 
 }
   
-.description-video-tron {
+.description-video-miraculus {
   height: auto;
-  width: auto;
-  max-width: 600px;
+  width: 80%;
   margin: auto;
   margin-bottom: 25px;
+  background-color: #FF5A5A;
   padding: 15px;
   border-radius: 15px;
 }
   
-.description-video-tron h2 {
+.description-video-miraculus h2 {
   margin: 8px;
   color: #F4F0C9;
 }
 
-.footer-tron {
-  text-align: center; 
+.footer-miraculus {
+  text-align: center;
+  padding: 20px;
+  background-color: #C41A1F;
   color: #F4F0C9;
-  width: 100%;
-  height: 110%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: rgb(11, 54, 61);
-  background: linear-gradient(0deg, rgb(11, 54, 61) 0%, rgba(11, 54, 61, 0.614) 50%, rgb(11, 54, 61) 100%);
 }
 
 .video-backgound-player {
@@ -190,7 +185,7 @@
     border-radius: 15px;
   }
     
-  .description-video-tron h2 {
+  .description-video-miraculus h2 {
     margin: 8px;
     color: #F4F0C9;
   }
